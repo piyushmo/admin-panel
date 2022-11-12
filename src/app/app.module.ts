@@ -15,6 +15,11 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { UnauthorisedComponent } from './unauthorised/unauthorised.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
+import { VerificationComponent } from './verification/verification.component';
+import { DocumentComponent } from './document/document.component';
+import { CustomerInfoComponent } from './customer-info/customer-info.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +29,10 @@ import { UnauthorisedComponent } from './unauthorised/unauthorised.component';
     DashboardComponent,
     SidenavComponent,
     UnauthorisedComponent,
+    LoginComponent,
+    VerificationComponent,
+    DocumentComponent,
+    CustomerInfoComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +45,7 @@ import { UnauthorisedComponent } from './unauthorised/unauthorised.component';
     MatIconModule,
     MatDividerModule,
     MatListModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -3,16 +3,22 @@
     <img src="./assets/logo.svg" alt="Company Logo" />
   </div>
   <mat-divider></mat-divider>
-  <h2 matSubheader class="mt-2">APPLICATIONS</h2>
+  <h2 matSubheader class="mt-2">Actions</h2>
 
-  <a mat-list-item routerLinkActive="list-item-active" routerLink="/home">
-    <mat-icon>home</mat-icon> Home
-  </a>
   <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
-    <mat-icon>dashboard</mat-icon> Dashboard
+    <mat-icon>home</mat-icon> Dashboard
   </a>
-  <a mat-list-item> <mat-icon>edit</mat-icon> Link 3 </a>
-  <a mat-list-item> <mat-icon>edit</mat-icon> Link 4 </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/cust-info">
+    <mat-icon>dashboard</mat-icon> Customer Data
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/verify">
+    <mat-icon>edit</mat-icon> Verification
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/doc">
+    <mat-icon>edit</mat-icon> Documnetation
+  </a>
+  <a mat-list-item> <mat-icon>edit</mat-icon> Verification </a>
+  <a mat-list-item> <mat-icon>edit</mat-icon> Documents </a>
   <a mat-list-item> <mat-icon>edit</mat-icon> Link 5 </a>
   <a mat-list-item> <mat-icon>edit</mat-icon> Link 6 </a>
 </mat-nav-list>
